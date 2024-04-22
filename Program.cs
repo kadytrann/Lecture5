@@ -20,6 +20,13 @@
             // Type: boolean - bool
             // true or false 
 
+            Menu();
+
+
+        }//main
+
+        public static void Menu()
+        {
             Console.WriteLine("What example do you want to run?");
             Console.WriteLine("1 - Age Example");
             Console.WriteLine("2 - Date Time 1");
@@ -30,30 +37,32 @@
             Console.Write("Enter your choice: ");
             string userInput = Console.ReadLine();
 
-            if(userInput == "1")
+            if (userInput == "1")
             {
                 AgeExample();
             }
-            else if(userInput == "2")
+            else if (userInput == "2")
             {
                 DateExample1();
             }
-            else if (userInput == "3") {
+            else if (userInput == "3")
+            {
                 DateTime2();
             }
-            else if (userInput == "4") {
+            else if (userInput == "4")
+            {
                 WeatherExample();
             }
-            else if (userInput == "5") {
+            else if (userInput == "5")
+            {
                 AltitudeExample();
             }
-            else {
+            else
+            {
                 Console.WriteLine("Thank you and have a great day");
                 Console.ReadKey();
             }
-
-
-        }//main
+        }
 
         public static void AgeExample()
         {
