@@ -27,6 +27,48 @@
 
         }//main
 
+        static void Questions()
+        {/* 
+            In programming, conditions like if / else if/ and else blocks are known as a D_______ S________.
+            - Data Structures
+
+            If you have an if / else if / else structure, how many code blocks can run in a single structure?
+            - One code block would run
+
+            if (condition) { // if statement }
+            else if ( another condition ) { // else if statement }
+            else  { // else statement }
+
+            Which code block will run?
+            - the "if" code block will run if the statement is true, but if the if statement is false and the else if statement is true then the "else if" will run. If neither conditions are met, the "else" will run.
+
+            If you have two if separate statements, can these both run?
+            if (condition) { // first if }
+            if (second condition { // second if }
+            - Yes if the conditions for both are met
+
+            How many if else if statements can you have?
+            - As many as you would want
+
+            Can you have an else if / else without an if?
+            else if (condition)  { // else if statement }
+            else { // else statement }
+            - No, it is required to have an "if"
+
+            Can you have an if without an else?
+            if (condition) { // if statement }
+            - Yes
+
+            Which logical operator do you choose if you have 2 Conditions and both need to be true?
+            - && AND
+
+            Which logical operator do you choose if you have 2 Conditions, but only one needs to be true? 
+            - || OR
+            */
+
+
+        }
+
         static void Menu2()
         {
             Console.WriteLine("Welcome to the Programming Practice Menu!");
@@ -357,6 +399,8 @@
                 // if 
                 // if
             }
+
+
 
         }//class
 
