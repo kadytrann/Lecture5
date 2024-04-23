@@ -67,7 +67,7 @@
             */
 
 
-        }
+        } // End of word questions
 
         static void Menu2()
         {
@@ -91,7 +91,7 @@
             {
                 Console.WriteLine("Thank you and have a great day");
                 Console.ReadKey();
-            }
+            } // End of menu for lecture assignment
 
             static void Part1()
             {
